@@ -3,7 +3,7 @@ package org.dimigo.basic;
  * << 첫번째 수행평가 과제 >> 
  * 내용 : 아이유 프로필 출력하기
  *  작성일자 : 2015년 3월 13일
- *  @author student
+ *  @author student 하연
  *  @version 1.0
  */
 
