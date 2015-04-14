@@ -13,7 +13,7 @@ package org.dimigo.basic;
  * </pre>
  *
  * @author : 2425 윤하연
- * @version : 1.0
+ * @version : 1.2
  */
 public class CarTest {
 
@@ -21,8 +21,9 @@ public class CarTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Car car = new Car();
-		Car car2 = new Car();
+		Car3 car = new Car3("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car3 car2 = new Car3("기아자동차", "K7", "흰색", 246);
+		Car3 car3 = new Car3("삼성자동차", "SM7", "회색");
 		
 		System.out.println("<< 자동차 목록 >>");
 		System.out.println("제조사명 : " + car.getCompany());
@@ -31,18 +32,25 @@ public class CarTest {
 		System.out.println("최대속도: "+ car.getMaxSpeed() +"km");
 		System.out.println("가격 : "+ String.format("%,d",car.getPricce()) +"원\n\n");
 		
-		car2.setColor("흰색");
+		/*		
+ 		car2.setColor("흰색");
 		car2.setCompany("기아자동차");
 		car2.setMaxSpeed(246);
 		car2.setModel("K7");
 		car2.setPrice(40000000);
+		*/
 		
 		System.out.println("제조사명 : " + car2.getCompany());
 		System.out.println("모델명 : " + car2.getModel());
 		System.out.println("색상 : " + car2.getColor());
 		System.out.println("최대속도: "+ car2.getMaxSpeed() +"km");
-		System.out.println("가격 : "+ String.format("%,d",car2.getPricce()) +"원");
+		System.out.println("가격 : "+ String.format("%,d",car2.getPricce()) +"원\n\n");
 	
+		System.out.println("제조사명 : " + car3.getCompany());
+		System.out.println("모델명 : " + car3.getModel());
+		System.out.println("색상 : " + car3.getColor());
+		System.out.println("최대속도: "+ car3.getMaxSpeed() +"km");
+		System.out.println("가격 : "+ String.format("%,d",car3.getPricce()) +"원\n\n");
 	}
 
 }
