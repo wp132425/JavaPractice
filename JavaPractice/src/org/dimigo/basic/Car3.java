@@ -13,7 +13,7 @@ package org.dimigo.basic;
  * </pre>
  *
  * @author : 2425 윤하연
- * @version : 1.0
+ * @version : 1.3
  */
 public class Car3 {
 
