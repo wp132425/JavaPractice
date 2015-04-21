@@ -8,7 +8,7 @@ import org.dimigo.basic.Car3;
  *	 |_ org.dimigo.oop
 
  * 1: 개요 : 차 클래스 연습
- * 2: 작성일 : 2015. 4. 13.
+ * 2: 작성일 : 2015. 4. 13.f
  * </pre>
  *
  * @author : 2425 윤하연
