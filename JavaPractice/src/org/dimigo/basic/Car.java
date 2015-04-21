@@ -5,8 +5,8 @@ package org.dimigo.basic;
 
 /**
  * <pre>
- * org.dimigo.basic
- *	 |_ org.dimigo.basic
+ * org.dimigo.oop
+ *	 |_ org.dimigo.oop
 
  * 1: 개요 : 차 클래스 연습
  * 2: 작성일 : 2015. 4. 13.
