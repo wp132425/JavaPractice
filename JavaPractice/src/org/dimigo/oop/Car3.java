@@ -6,7 +6,7 @@ package org.dimigo.oop;
  *	 |_ org.dimigo.oop
 
  * 1: 개요 : 카 업뎃
- * 2: 작성일 : 2015. 4. 14.
+ * 2: 작성일 : 2015. 4. 14.ㅌㅌㅌㅌㅌ
  * </pre>
  *
  * @author : 2425 윤하연
