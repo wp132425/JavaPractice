@@ -1,7 +1,6 @@
-/**
- * 
- */
 package org.dimigo.oop;
+
+import org.dimigo.basic.Car3;
 
 /**
  * <pre>
