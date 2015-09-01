@@ -17,7 +17,7 @@ import java.text.Format;
  * @author : 
  * @version : 
  */
-public class SmartPhone {
+public abstract class SmartPhone {
 	private String model;
 	private String company;
 	private int price;
@@ -41,9 +41,7 @@ public class SmartPhone {
 		System.out.println(model + "의 전원을 끕니다.");
 	}
 	
-	public void pay(){
-		
-	}
+	public abstract void pay();
 	
 	public void useSpecialFunction(SmartPhone phone){
 		if(phone instanceof IPhone){
