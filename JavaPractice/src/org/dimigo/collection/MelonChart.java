@@ -49,8 +49,10 @@ public class MelonChart {
 	}
 	
 	public static void printList(List<Music> list){
+		int i=1;
 		for(Music value: list){
-			System.out.println(value);
+			System.out.println(i+"."+value);
+			i++;
 		}		
 	}
 }
