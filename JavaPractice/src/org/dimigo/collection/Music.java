@@ -19,7 +19,7 @@ public class Music {
 	private String title;
 	private String singer;
 	
-	public Music(String title, String singer){
+	public  Music(String title, String singer){
 		this.title = title;
 		this.singer = singer;
 	}
