@@ -101,13 +101,13 @@ public class NaverSearch {
 	         * 2. 스타 워즈 앤솔로지: 로그 원 - [펠리시티 존스, 벤 멘델슨, .. ]
 	         * 3. 스타워즈: 깨어난 포스 - [해리슨 포드, 마크 해밀, 캐리 피셔, .. ]
 	         ********************************************************/
-	        
+	        int i = 1;
 	        // files/movies.txt 파일에 write하기
 	        for (Movie movie : movieList) {
-	        	System.out.println(movie);
 	        	
-	        	bw2.write(movie.toString()+"\n");
+	        	bw2.write(i +". "+ movie.getTitle() + " - " + movie.getActors() +"\n");
 	        	bw2.flush();
+	        	i++;
 			}
 	        
 	        
